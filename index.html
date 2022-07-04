@@ -1,11 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-  </head>
-  <body>
-    
-  </body>
+<html class="page" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <title>CV</title>
+</head>
+
+<body class="page__body">
+  <header class="page-header container">
+    <img src="assets/img/avatarka.jpg" width="250" height="309" alt="Avatarka.">
+    <div class="page-header__content">
+      <nav class="page-header__nav">
+        <ul class="page-header__nav-list list">
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#contacts">Contacts</a>
+          </li>
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#code">Code</a>
+          </li>
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#courses">Сourses</a>
+          </li>
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="page-header__info">
+        <h1 class="page-header__title">Natalya Ermolaeva</h1>
+        <p class="page-header__subtitle">Front-End Developer</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main container">
+      <div class="page-main__column-left">
+        <section class="contacts" id="contacts">
+          <h2 class="section__title">Contacts</h2>
+          <ul class="contacts__list list">
+            <li class="contacts__item">
+              <svg class="contacts__icon contacts__icon--location" width="485" height="485">
+                <use xlink:href="assets/svg/sprite.svg#location" x="0" y="0"></use>
+              </svg>
+              Minsk, Belarus
+            </li>
+            <li class="contacts__item">
+              <svg class="contacts__icon contacts__icon--discord" width="24" height="24">
+                <use xlink:href="assets/svg/sprite.svg#discord" x="0" y="0"></use>
+              </svg>
+              <a class="contacts__link" href="https://discord.com/channels/" target="_blank">@Natali#3068</a>
+            </li>
+            <li class="contacts__item">
+              <svg class="contacts__icon contacts__icon--telegram" width="512" height="512">
+                <use xlink:href="assets/svg/sprite.svg#telegram" x="0" y="0"></use>
+              </svg>
+              <a class="contacts__link" href="https://t.me/Natali_Ermol" target="_blank">@Natali_Ermol</a>
+            </li>
+            <li class="contacts__item">
+              <svg class="contacts__icon contacts__icon--mail" width="64" height="64">
+                <use xlink:href="assets/svg/sprite.svg#mail" x="0" y="0"></use>
+              </svg>
+              <a class="contacts__link" href="mailto:ermolaeva.natali.2011@gmail.com">
+                ermolaeva.natali.2011<br>@gmail.com
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="skills" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <ul class="skils__list list">
+            <li class="skills__item">
+              <svg class="skills__icon" width="30" height="30">
+                <use xlink:href="assets/svg/sprite.svg#html" x="0" y="0"></use>
+              </svg>
+              HTML5
+            </li>
+            <li class="skills__item">
+              <svg class="skills__icon skills__icon--css" width="24" height="24">
+                <use xlink:href="assets/svg/sprite.svg#css" x="0" y="0"></use>
+              </svg>
+              CSS3
+            </li>
+            <li class="skills__item">
+              <svg class="skills__icon skills__icon--javascript" width="24" height="24">
+                <use xlink:href="assets/svg/sprite.svg#javascript" x="0" y="0"></use>
+              </svg>
+              JavaScript
+            </li>
+            <li class="skills__item">
+              <svg class="skills__icon skills__icon--sass" width="32" height="32">
+                <use xlink:href="assets/svg/sprite.svg#sass" x="0" y="0"></use>
+              </svg>
+              SASS
+            </li>
+            <li class="skills__item">
+              <svg class="skills__icon skills__icon--bem" width="512" height="512">
+                <use xlink:href="assets/svg/sprite.svg#bem" x="0" y="0"></use>
+              </svg>
+              BEM
+            </li>
+            <li class="skills__item">
+              <svg class="skills__icon skills__icon--galp" width="32" height="32">
+                <use xlink:href="assets/svg/sprite.svg#galp" x="0" y="0"></use>
+              </svg>
+              Galp
+            </li>
+            <li class="skills__item">
+              <svg class="skills__icon skills__icon--github" width="438" height="438">
+                <use xlink:href="assets/svg/sprite.svg#github" x="0" y="0"></use>
+              </svg>
+              GitHub</li>
+            <li class="skills__item">
+              <svg class="skills__icon skills__icon--figma" width="30" height="30">
+                <use xlink:href="assets/svg/sprite.svg#figma" x="0" y="0"></use>
+              </svg>
+              Figma
+            </li>
+            <li class="skills__item">
+              <svg class="skills__icon skills__icon--photoshop" width="48" height="48">
+                <use xlink:href="assets/svg/sprite.svg#photoshop" x="0" y="0"></use>
+              </svg>
+              Photoshop
+            </li>
+          </ul>
+        </section>
+
+        <section class="courses" id="courses">
+          <h2 class="section__title">Courses</h2>
+          <ul class="courses__list list">
+            <li class="courses__item">
+              <svg class="courses__icon courses__icon--rs-school" width="80" height="29">
+                <use xlink:href="assets/svg/sprite.svg#rs-school" x="0" y="0"></use>
+              </svg>
+              <a class="courses__link" href="https://rs.school/js/" target="_blank">JS / Front-end</a>
+            </li>
+            <li class="courses__item">
+              <svg class="courses__icon courses__icon--html-academy" width="32" height="32">
+                <use xlink:href="assets/svg/sprite.svg#html-academy" x="0" y="0"></use>
+              </svg>
+              <a class="courses__link" href="https://htmlacademy.ru/" target="_blank">HTML Academy</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="languages">
+          <h2 class="section__title">Languages</h2>
+          <ul class="languages__list list">
+            <li class="languages__item">Russian - native speaker</li>
+            <li class="languages__item">English - A1</li>
+          </ul>
+        </section>
+
+      </div>
+      <div class="page-main__column-right">
+        <section class="about-me" id="about-me">
+          <h2 class="section__title section__title--column-right">About me</h2>
+          <p class="about-me__text">
+            I like to develop constantly and learn new things. I used to study layout, then Java. Now my goal is to gain knowledge and practical skills in the field of front-end development.
+            I want to learn how to create interactive, responsive and accessible websites and applications. And in the future, find a job in this area and become an experienced front-end developer.
+          </p>
+        </section>
+
+        <section class="code" id="code">
+          <h2 class="section__title section__title--column-right">Code example</h2>
+          <pre class="code__content"><code>
+          let <span class="code__variables">mainNav</span> = document.<span class="code__method">querySelector</span>('.main-nav');
+          let <span class="code__variables">mainNavToggle</span> = document.<span class="code__method">querySelector</span>('.main-nav__toggle');
+
+          <span class="code__variables">mainNav</span>.classList.<span class="code__method">remove</span>('main-nav--nojs');
+
+          <span class="code__variables">mainNavToggle</span>.<span class="code__method">addEventListener</span>('click', function () {
+            if (<span class="code__variables">mainNav</span>.classList.<span class="code__method">contains</span>('main-nav--closed')) {
+              <span class="code__variables">mainNav</span>.classList.<span class="code__method">remove</span>('main-nav--closed');
+              <span class="code__variables">mainNav</span>.classList.<span class="code__method">add</span>('main-nav--opened');
+            } else {
+              <span class="code__variables">mainNav</span>.classList.<span class="code__method">add</span>('main-nav--closed');
+              <span class="code__variables">mainNav</span>.classList.<span class="code__method">remove</span>('main-nav--opened');
+            }
+            });
+          </code></pre>
+        </section>
+
+        <section class="projects" id="projects">
+          <h2 class="section__title section__title--column-right">Projects</h2>
+          <ul class="projects__list list">
+            <li class="projects__item">
+              <a class="projects__link" href="https://natalya-ermolaeva.github.io/rsschool-cv/cv" target="_blank">
+                <img class="projects__image" src="assets/img/cv-markdown.png" width="888" height="500" alt="Project CV Markdown.">
+                <h3 class="projects__title">CV Markdown</h3>
+              </a>
+            </li>
+            <li class="projects__item">
+              <a class="projects__link" href="https://natalya-ermolaeva.github.io/rsschool-cv/" target="_blank">
+                <img class="projects__image" src="assets/img/cv-html-css.png" width="887" height="500" alt="Project CV HTML, CSS.">
+                <h3 class="projects__title">CV HTML, CSS</h3>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+  </main>
+
+  <footer class="page-footer container">
+    <a class="page-footer__github-link" href="https://github.com/Natalya-Ermolaeva" target="_blank">
+      <svg class="page-footer__github-icon" width="438" height="438">
+        <use xlink:href="assets/svg/sprite.svg#github" x="0" y="0"></use>
+      </svg>
+      <span class="page-footer__github-text">My GitHub</span>
+    </a>
+    <p class="page-footer__copyright">© 2022 Natalya Ermolaeva</p>
+    <a class="page-footer__rs-school" href="https://rs.school/js/" target="_blank">
+      <svg class="page-footer__rs-school-icon" width="438" height="438">
+        <use xlink:href="assets/svg/sprite.svg#rs-school" x="0" y="0"></use>
+      </svg>
+    </a>
+  </footer>
+</body>
 </html>
